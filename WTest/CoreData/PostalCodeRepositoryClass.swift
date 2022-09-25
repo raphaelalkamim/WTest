@@ -22,6 +22,8 @@ class PostalCodeRepository: NSManagedObject {
         return container
     }()
     
+
+    
     var context: NSManagedObjectContext {
         persistentContainer.viewContext
     }
@@ -41,7 +43,7 @@ class PostalCodeRepository: NSManagedObject {
     func createPostalCode(postalCode: PostalCodeCSV) -> PostalCodeLocal {
         guard let newPostalCode = NSEntityDescription.insertNewObject(forEntityName: "PostalCodeLocal", into: context) as? PostalCodeLocal else { preconditionFailure("somethingWrong")}
         
-        newPostalCode.id = postalCode.id
+        newPostalCode.id = UUID()
         
         if postalCode.nome_localidade.count == 0 {
             newPostalCode.localyName = "Empty"

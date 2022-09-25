@@ -13,6 +13,11 @@ public class Utils {
     weak var dataManager = DataManager.shared
     var data: [PostalCodeCSV] = []
     let url: String = "codigos_postais/master/data/codigos_postais.csv"
+    var downloadComplete: Bool = false {
+        didSet {
+            saveLocaly()
+        }
+    }
     
     func isAppAlreadyLaunchedOnce() -> Bool {
         let defaults = UserDefaults.standard
@@ -30,13 +35,12 @@ public class Utils {
             do {
                 guard let dataNew = try await self.dataManager?.loadCSV(url: self.url) else {return}
                 self.data = dataNew
-                
-                print(self.data.count)
-                print(PostalCodeRepository.shared.getPostalCode().count)
+                self.downloadComplete = true
             } catch {
                 print("errorOccurred")
             }
         }
+       
     }
     
     func saveLocaly() {
@@ -45,7 +49,7 @@ public class Utils {
             PostalCodeRepository.shared.saveContext()
         }
         
-        print(self.data)
+        print(self.data.count)
         print(PostalCodeRepository.shared.getPostalCode().count)
     }
     
