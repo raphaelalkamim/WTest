@@ -9,14 +9,22 @@
 /* Begin PBXBuildFile section */
 		B02F3E4C28DF3EE1008C8455 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02F3E4B28DF3EE1008C8455 /* AppDelegate.swift */; };
 		B02F3E4E28DF3EE1008C8455 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02F3E4D28DF3EE1008C8455 /* SceneDelegate.swift */; };
-		B02F3E5028DF3EE1008C8455 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02F3E4F28DF3EE1008C8455 /* ViewController.swift */; };
-		B02F3E5328DF3EE1008C8455 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B02F3E5128DF3EE1008C8455 /* Main.storyboard */; };
-		B02F3E5628DF3EE1008C8455 /* WTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B02F3E5428DF3EE1008C8455 /* WTest.xcdatamodeld */; };
 		B02F3E5828DF3EE2008C8455 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B02F3E5728DF3EE2008C8455 /* Assets.xcassets */; };
 		B02F3E5B28DF3EE2008C8455 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B02F3E5928DF3EE2008C8455 /* LaunchScreen.storyboard */; };
 		B02F3E6628DF3EE3008C8455 /* WTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02F3E6528DF3EE3008C8455 /* WTestTests.swift */; };
 		B02F3E7028DF3EE3008C8455 /* WTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02F3E6F28DF3EE3008C8455 /* WTestUITests.swift */; };
 		B02F3E7228DF3EE3008C8455 /* WTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02F3E7128DF3EE3008C8455 /* WTestUITestsLaunchTests.swift */; };
+		B02F3E8328DF430F008C8455 /* PostalCodeCSV.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02F3E8228DF430F008C8455 /* PostalCodeCSV.swift */; };
+		B02F3E8528DF46F1008C8455 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02F3E8428DF46F1008C8455 /* DataManager.swift */; };
+		B02F3E8B28DF5D04008C8455 /* PostalCodeSearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02F3E8A28DF5D04008C8455 /* PostalCodeSearchTableViewController.swift */; };
+		B02F3E8F28DF790A008C8455 /* PostalCodeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02F3E8E28DF790A008C8455 /* PostalCodeTableViewCell.swift */; };
+		B02F3E9328DFA49A008C8455 /* PostalCodeRepositoryClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02F3E9228DFA49A008C8455 /* PostalCodeRepositoryClass.swift */; };
+		B02F3E9628DFA4D7008C8455 /* wTestApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B02F3E9428DFA4D7008C8455 /* wTestApp.xcdatamodeld */; };
+		B02F3EA428DFAE6F008C8455 /* PostalCodeLocal+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02F3EA228DFAE6F008C8455 /* PostalCodeLocal+CoreDataClass.swift */; };
+		B02F3EA528DFAE6F008C8455 /* PostalCodeLocal+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02F3EA328DFAE6F008C8455 /* PostalCodeLocal+CoreDataProperties.swift */; };
+		B02F3EA728DFB697008C8455 /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02F3EA628DFB697008C8455 /* UserDefaults.swift */; };
+		B0F47DFC28E09E3400D7DA98 /* PostalCodeLocaly.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F47DFB28E09E3400D7DA98 /* PostalCodeLocaly.swift */; };
+		B0F47E0228E0BB1000D7DA98 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F47E0128E0BB1000D7DA98 /* StringExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,9 +48,6 @@
 		B02F3E4828DF3EE1008C8455 /* WTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B02F3E4B28DF3EE1008C8455 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B02F3E4D28DF3EE1008C8455 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B02F3E4F28DF3EE1008C8455 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B02F3E5228DF3EE1008C8455 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B02F3E5528DF3EE1008C8455 /* WTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WTest.xcdatamodel; sourceTree = "<group>"; };
 		B02F3E5728DF3EE2008C8455 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B02F3E5A28DF3EE2008C8455 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B02F3E5C28DF3EE2008C8455 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +56,17 @@
 		B02F3E6B28DF3EE3008C8455 /* WTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B02F3E6F28DF3EE3008C8455 /* WTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WTestUITests.swift; sourceTree = "<group>"; };
 		B02F3E7128DF3EE3008C8455 /* WTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B02F3E8228DF430F008C8455 /* PostalCodeCSV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostalCodeCSV.swift; sourceTree = "<group>"; };
+		B02F3E8428DF46F1008C8455 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		B02F3E8A28DF5D04008C8455 /* PostalCodeSearchTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostalCodeSearchTableViewController.swift; sourceTree = "<group>"; };
+		B02F3E8E28DF790A008C8455 /* PostalCodeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostalCodeTableViewCell.swift; sourceTree = "<group>"; };
+		B02F3E9228DFA49A008C8455 /* PostalCodeRepositoryClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostalCodeRepositoryClass.swift; sourceTree = "<group>"; };
+		B02F3E9528DFA4D7008C8455 /* wTestApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = wTestApp.xcdatamodel; sourceTree = "<group>"; };
+		B02F3EA228DFAE6F008C8455 /* PostalCodeLocal+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PostalCodeLocal+CoreDataClass.swift"; sourceTree = "<group>"; };
+		B02F3EA328DFAE6F008C8455 /* PostalCodeLocal+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PostalCodeLocal+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		B02F3EA628DFB697008C8455 /* UserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaults.swift; sourceTree = "<group>"; };
+		B0F47DFB28E09E3400D7DA98 /* PostalCodeLocaly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostalCodeLocaly.swift; sourceTree = "<group>"; };
+		B0F47E0128E0BB1000D7DA98 /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,12 +119,15 @@
 			children = (
 				B02F3E4B28DF3EE1008C8455 /* AppDelegate.swift */,
 				B02F3E4D28DF3EE1008C8455 /* SceneDelegate.swift */,
-				B02F3E4F28DF3EE1008C8455 /* ViewController.swift */,
-				B02F3E5128DF3EE1008C8455 /* Main.storyboard */,
+				B0F47E0028E0BB0100D7DA98 /* Extension */,
+				B02F3E9D28DFAABB008C8455 /* CoreData */,
+				B02F3EA828DFB6A4008C8455 /* Utils */,
+				B02F3E8128DF424B008C8455 /* Model */,
+				B02F3E8028DF420E008C8455 /* PostalCode */,
 				B02F3E5728DF3EE2008C8455 /* Assets.xcassets */,
+				B02F3E9428DFA4D7008C8455 /* wTestApp.xcdatamodeld */,
 				B02F3E5928DF3EE2008C8455 /* LaunchScreen.storyboard */,
 				B02F3E5C28DF3EE2008C8455 /* Info.plist */,
-				B02F3E5428DF3EE1008C8455 /* WTest.xcdatamodeld */,
 			);
 			path = WTest;
 			sourceTree = "<group>";
@@ -128,6 +147,67 @@
 				B02F3E7128DF3EE3008C8455 /* WTestUITestsLaunchTests.swift */,
 			);
 			path = WTestUITests;
+			sourceTree = "<group>";
+		};
+		B02F3E8028DF420E008C8455 /* PostalCode */ = {
+			isa = PBXGroup;
+			children = (
+				B02F3EAC28DFB75D008C8455 /* ViewController */,
+				B02F3EAB28DFB744008C8455 /* ViewCell */,
+			);
+			path = PostalCode;
+			sourceTree = "<group>";
+		};
+		B02F3E8128DF424B008C8455 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B02F3E8228DF430F008C8455 /* PostalCodeCSV.swift */,
+				B0F47DFB28E09E3400D7DA98 /* PostalCodeLocaly.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B02F3E9D28DFAABB008C8455 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				B02F3EA228DFAE6F008C8455 /* PostalCodeLocal+CoreDataClass.swift */,
+				B02F3EA328DFAE6F008C8455 /* PostalCodeLocal+CoreDataProperties.swift */,
+				B02F3E9228DFA49A008C8455 /* PostalCodeRepositoryClass.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		B02F3EA828DFB6A4008C8455 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				B02F3E8428DF46F1008C8455 /* DataManager.swift */,
+				B02F3EA628DFB697008C8455 /* UserDefaults.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		B02F3EAB28DFB744008C8455 /* ViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				B02F3E8E28DF790A008C8455 /* PostalCodeTableViewCell.swift */,
+			);
+			path = ViewCell;
+			sourceTree = "<group>";
+		};
+		B02F3EAC28DFB75D008C8455 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B02F3E8A28DF5D04008C8455 /* PostalCodeSearchTableViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		B0F47E0028E0BB0100D7DA98 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				B0F47E0128E0BB1000D7DA98 /* StringExtension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,7 +316,6 @@
 			files = (
 				B02F3E5B28DF3EE2008C8455 /* LaunchScreen.storyboard in Resources */,
 				B02F3E5828DF3EE2008C8455 /* Assets.xcassets in Resources */,
-				B02F3E5328DF3EE1008C8455 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,10 +340,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B02F3E5028DF3EE1008C8455 /* ViewController.swift in Sources */,
-				B02F3E5628DF3EE1008C8455 /* WTest.xcdatamodeld in Sources */,
+				B02F3E8528DF46F1008C8455 /* DataManager.swift in Sources */,
+				B02F3EA528DFAE6F008C8455 /* PostalCodeLocal+CoreDataProperties.swift in Sources */,
 				B02F3E4C28DF3EE1008C8455 /* AppDelegate.swift in Sources */,
+				B02F3EA728DFB697008C8455 /* UserDefaults.swift in Sources */,
+				B02F3E8F28DF790A008C8455 /* PostalCodeTableViewCell.swift in Sources */,
+				B02F3EA428DFAE6F008C8455 /* PostalCodeLocal+CoreDataClass.swift in Sources */,
+				B02F3E8328DF430F008C8455 /* PostalCodeCSV.swift in Sources */,
+				B02F3E9628DFA4D7008C8455 /* wTestApp.xcdatamodeld in Sources */,
 				B02F3E4E28DF3EE1008C8455 /* SceneDelegate.swift in Sources */,
+				B02F3E9328DFA49A008C8455 /* PostalCodeRepositoryClass.swift in Sources */,
+				B02F3E8B28DF5D04008C8455 /* PostalCodeSearchTableViewController.swift in Sources */,
+				B0F47E0228E0BB1000D7DA98 /* StringExtension.swift in Sources */,
+				B0F47DFC28E09E3400D7DA98 /* PostalCodeLocaly.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,14 +389,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		B02F3E5128DF3EE1008C8455 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B02F3E5228DF3EE1008C8455 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		B02F3E5928DF3EE2008C8455 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -446,7 +526,7 @@
 				INFOPLIST_FILE = WTest/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -474,7 +554,7 @@
 				INFOPLIST_FILE = WTest/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -608,13 +688,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		B02F3E5428DF3EE1008C8455 /* WTest.xcdatamodeld */ = {
+		B02F3E9428DFA4D7008C8455 /* wTestApp.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				B02F3E5528DF3EE1008C8455 /* WTest.xcdatamodel */,
+				B02F3E9528DFA4D7008C8455 /* wTestApp.xcdatamodel */,
 			);
-			currentVersion = B02F3E5528DF3EE1008C8455 /* WTest.xcdatamodel */;
-			path = WTest.xcdatamodeld;
+			currentVersion = B02F3E9528DFA4D7008C8455 /* wTestApp.xcdatamodel */;
+			path = wTestApp.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
